@@ -1071,3 +1071,23 @@ html {
     opacity: 0;
     pointer-events: none;
   }
+
+  .about-us-img-wrapper {
+    width: 100% !important;
+    max-width: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -280px !important;
+    padding: 0 !important;
+  }
+  
+  .imagen-grande {
+    width: 550px !important;
+    max-width: none !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    flex-shrink: 0 !important;
+  }
