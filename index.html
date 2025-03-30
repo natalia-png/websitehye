@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H&E Arquitectos S.A.S</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    
+</head>
+<body>
+
+  <!-- Preloader arquitectónico con bloques encajando -->
+<div class="preloader" id="preloader">
+  <div class="preloader-logo">
+    <img src="images/logo.png" alt="H&E Arquitectos" class="logo" />
+    <div class="block-builder">
+      <div class="block block1"></div>
+      <div class="block block2"></div>
+      <div class="block block3"></div>
+      <div class="block block4"></div>
+    </div>
+    <p class="preloader-text">Construyendo tu experiencia...</p>
+  </div>
+</div>
+
+
+  <div class="site-wrapper" id="site-content">
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <span>Close</span>
+        </div>
+
+        <header class="header" id="home">
+            <div class="img-wrapper">
+                <img src="images/fondo.png" />
+            </div>
+            <div class="banner">
+                <h1>H&E Arquitectos S.A.S</h1>
+                <p>En H&E Arquitectos, diseñamos espacios funcionales y sostenibles, adaptados a tus necesidades. 
+                    ¡Construyamos juntos tus ideas!
+                </p>
+                <button onclick="window.location.href='https://form.hye-arquitectos.online/';">Quiero Contactarme!</button>
+            </div>
+        </header>
+
+        <section class="sidebar">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#home" class="menu-link" data-content="Inicio">Inicio</a>
+            </li>
+            <li class="menu-item">
+              <a href="#about-us" class="menu-link" data-content="Sobre Nosotros">Sobre Nosotros</a>
+            </li>
+            <li class="menu-item">
+              <a href="#team" class="menu-link" data-content="Equipo">Equipo</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" id="menu-portafolio" class="menu-link" data-content="Portafolio">Portafolio</a>
+            </li>
+            <li class="menu-item">
+              <a href="https://form.hye-arquitectos.online/" class="menu-link" data-content="Contáctanos">Contáctanos</a>
+            </li>
+          </ul>
+        </section>
+        
+
+        <section class="about-us" id="about-us">
+            <div class="section-header">
+                <h1 class="section-heading">Sobre Nosotros</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="services">
+              <div class="service">
+                <div class="service-header">
+                  <i class="fas fa-pen-nib"></i>
+                  <h3>Interior</h3>
+                </div>
+                <p class="service-text">
+                  Creamos espacios interiores que combinan funcionalidad y estética, 
+                  adaptándonos a las necesidades de cada cliente. Desde diseño de interiores hasta remodelaciones, 
+                  garantizamos ambientes armoniosos y personalizados con un enfoque en el confort y la innovación.
+                </p>
+              </div>
+              <div class="service">
+                <div class="service-header">
+                  <i class="fas fa-paint-roller"></i>
+                  <h3>Exterior</h3>
+                </div>
+                <p class="service-text">
+                  Diseñamos fachadas y espacios exteriores que reflejan identidad y estilo. 
+                  Con un enfoque en arquitectura sostenible y urbana, transformamos entornos para integrar naturaleza, 
+                  eficiencia y modernidad en cada proyecto
+                </p>
+              </div>
+              <div class="service">
+                <div class="service-header">
+                  <i class="fas fa-pencil-alt"></i>
+                  <h3>Diseño</h3>
+                </div>
+                <p class="service-text">
+                  Cada proyecto inicia con una visión clara y un diseño arquitectónico bien estructurado. Utilizamos herramientas avanzadas, incluyendo modelado BIM, para desarrollar planos detallados, 
+                  renders y presentaciones que permiten visualizar el resultado final antes de la ejecución.
+                </p>
+              </div>
+              <div class="service">
+                <div class="service-header">
+                  <i class="fas fa-paint-brush"></i>
+                  <h3>Decoración</h3>
+                </div>
+                <p class="service-text">
+                  La arquitectura no solo es construcción, también es arte y expresión. 
+                  Nos especializamos en la selección de materiales, acabados y elementos decorativos que resaltan 
+                  la personalidad de cada espacio, logrando un equilibrio entre belleza y funcionalidad.
+                </p>
+              </div>
+              <div class="service">
+                <div class="service-header">
+                  <i class="fas fa-ruler-combined"></i>
+                  <h3>Planeación</h3>
+                </div>
+                <p class="service-text">
+                  Planificamos cada detalle del proyecto desde su concepción hasta su entrega. 
+                  Nuestros procesos incluyen estudios de viabilidad, planificación estratégica y coordinación de equipos, 
+                  asegurando una ejecución eficiente y ajustada a los requerimientos del cliente
+                </p>
+              </div>
+              <div class="service">
+                <div class="service-header">
+                  <i class="far fa-building"></i>
+                  <h3>Ejecución</h3>
+                </div>
+                <p class="service-text">
+                  Supervisamos y gestionamos la ejecución de cada obra con un enfoque en calidad, 
+                  tiempos de entrega y optimización de recursos.Nuestra experiencia en dirección de proyectos 
+                  nos permite garantizar resultados excepcionales en cada construcción y remodelación
+                </p>
+              </div>
+              <div class="about-us-img-wrapper">
+                <img src="images/house.png" />
+              </div>
+            </div>
+          </section>
+    
+          <section class="team" id="team">
+            <div class="section-header">
+              <h1 class="section-heading">Nuestro Equipo</h1>
+              <div class="underline"></div>
+            </div>
+            <div class="cards-wrapper">
+              <div class="card" data-tilt>
+                <div class="card-img-wrapper">
+                  <img src="images/person-1.jpeg" alt="CEO" />
+                </div>
+                <div class="card-info">
+                  <h2>Luisa Maria Erazo</h2>
+                  <h3>CEO</h3>
+                  <p>
+                    Arquitecta con maestría en Dirección y Gestión de Proyectos, 
+                    especializada en modelado BIM, sostenibilidad y diseño arquitectónico innovador.
+                  </p>
+                  
+                </div>
+              </div>
+
+              
+            </div>
+          </section>
+
+
+          <!-- PORTAFOLIO SECTION -->
+<section id="portafolio" class="portfolio-section" style="display: none;">
+  <div class="section-header">
+    <h1 class="section-heading">Portafolio</h1>
+    <div class="underline"></div>
+  </div>
+  <div class="portfolio-grid">
+    <!-- Las imágenes se cargarán dinámicamente aquí -->
+  </div>
+</section>
+
+<!-- GLightbox CSS -->
+<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+
+<style>
+  .portfolio-section {
+    padding: 6rem 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .portfolio-grid a {
+    display: block;
+    margin: 0;
+  }
+
+  .portfolio-grid a img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+  }
+
+  .portfolio-grid a img:hover {
+    transform: scale(1.02);
+  }
+</style>
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+  let lightboxInstance;
+
+  document.getElementById("menu-portafolio").addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const section = document.getElementById("portafolio");
+    section.style.display = "block";
+
+    setTimeout(() => {
+      section.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+
+    const grid = document.querySelector(".portfolio-grid");
+    if (!grid.dataset.loaded) {
+      for (let i = 2; i <= 39; i++) {
+        const num = i.toString().padStart(2, '0');
+        const imgSrc = `images/portfolio/PORTAFOLIO-ARQ. LUISA M ERAZO-2024 DC_page-00${num}.jpg`;
+
+        const link = document.createElement("a");
+        link.href = imgSrc;
+        link.setAttribute("class", "glightbox");
+        link.setAttribute("data-gallery", "portfolio");
+        link.setAttribute("data-title", `Portafolio página ${i}`);
+
+        const img = document.createElement("img");
+        img.src = imgSrc;
+        img.alt = `Portafolio página ${i}`;
+
+        link.appendChild(img);
+        grid.appendChild(link);
+      }
+      grid.dataset.loaded = true;
+
+      // Inicializar GLightbox
+      lightboxInstance = GLightbox({ selector: '.glightbox' });
+    }
+  });
+</script>
+
+
+        <!-- Nueva Sección para el Formulario -->
+        <section id="contacto" style="display: none; width: 100%; height: 100vh; padding: 2rem;">
+            <h2 style="text-align: center;">Formulario de Contacto</h2>
+            <iframe id="formulario-frame" src="https://form.hye-arquitectos.online/" style="width: 100%; height: 90%; border: none;"></iframe>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright">
+                    Copyright &copy; 2025, H&E Arquitectos - All Rights Reserved
+                </p>
+            </div>
+        </footer>
+
+        
+    </div>
+
+    <script>
+        function mostrarFormulario() {
+            document.getElementById("contacto").style.display = "block";
+            window.scrollTo({ top: document.getElementById("contacto").offsetTop, behavior: "smooth" });
+        }
+    </script>
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="tilt.js"></script>
+
+    <!-- Botón flotante de WhatsApp con burbuja -->
+<div class="whatsapp-container">
+  <div class="whatsapp-tooltip">¿Hablamos? 💬</div>
+  <a
+  href="https://wa.me/573218856680?text=%F0%9F%91%8B%20%C2%A1Hola!%20Me%20encantar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios%20de%20arquitectura%20%F0%9F%8F%9B%EF%B8%8F%E2%9C%8F%EF%B8%8F"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chatea en WhatsApp con H&E Arquitectos"
+>
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+</a>
+
+</div>
+
+<style>
+  .whatsapp-container {
+    position: fixed;
+    bottom: 6rem;
+    right: 2rem;
+    z-index: 998;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .whatsapp-tooltip {
+    background-color: #fff;
+    color: #333;
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+    box-shadow: 0 0.2rem 0.8rem rgba(0, 0, 0, 0.15);
+    font-family: "Baloo Da 2", serif;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: floatIn 1s ease-out forwards;
+  }
+
+  .whatsapp-float {
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  .whatsapp-float img {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  @keyframes floatIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Desaparece después de 5s */
+  .whatsapp-tooltip {
+    animation: floatIn 1s ease-out forwards, fadeOut 0.5s ease-in 5s forwards;
+  }
+
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .whatsapp-container {
+      right: 1.5rem;
+      bottom: 6rem;
+    }
+
+    .whatsapp-tooltip {
+      font-size: 1.2rem;
+    }
+
+    .whatsapp-float img {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+</style>
+<script>
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    const content = document.getElementById("site-content");
+
+    preloader.classList.add("hidden");
+    content.classList.add("visible");
+
+    setTimeout(() => {
+      preloader.remove();
+    }, 800);
+  });
+</script>
+
+
+</body>
+</html>
